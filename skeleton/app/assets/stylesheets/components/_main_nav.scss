@@ -1,17 +1,26 @@
 .main-nav {
-
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
 }
 
 .left-nav > ul,
 .right-nav > ul {
-
+  display: flex;
+  
+  flex-direction: row;
+  align-items: center;
 }
 
 .left-nav > ul > li {
-
+  // flex-direction: row;
+  // justify-content: space-between;
+  font-family: $sans-serif;
+  padding: 0px 10px;
 }
 
 .right-nav > ul > li {
+  padding: 0px 2px;
 
 }
 
@@ -25,10 +34,11 @@
 }
 
 .left-nav span {
-
+  text-transform: uppercase;
+  font-family: $sans-serif;
 }
 
 
 .right-nav i {
-
+  font-size: 15px;
 }
