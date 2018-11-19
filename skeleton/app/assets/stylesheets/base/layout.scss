@@ -13,12 +13,13 @@ body {
 }
 
 button {
-	// background-color:
-	// border-color:
-	// color:
+	background-color: $light-blue;
+	border-color: $dark-blue;
+	color: white;
 	// font-weight:
-	// padding:
-	// border-radius:
+	padding: 5
+  px;
+	border-radius: 3px;
 	// transition:
 	// font-family:
 	// text-transform:
@@ -27,8 +28,8 @@ button {
 }
 
 button:hover {
-	// background-color:
-	// border-color:
+	background-color: $dark-blue;
+	border-color: $darkest-blue;
 }
 
 /*
