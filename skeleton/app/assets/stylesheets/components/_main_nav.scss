@@ -2,12 +2,13 @@
   display: flex;
   justify-content: space-between;
   flex-direction: row-reverse;
+  padding: 10px;
+  align-items: center;
 }
 
 .left-nav > ul,
 .right-nav > ul {
   display: flex;
-  
   flex-direction: row;
   align-items: center;
 }
@@ -38,6 +39,9 @@
   font-family: $sans-serif;
 }
 
+.button {
+  padding: 5px;
+}
 
 .right-nav i {
   font-size: 15px;

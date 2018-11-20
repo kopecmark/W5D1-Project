@@ -5,25 +5,25 @@ ul, li, strong, main, button, i,
 section, img, div, h2, p, form,
 fieldset, label, input, textarea,
 span, article, footer, time, small {
-  // margin:
-  // padding:
-  // border:
-  // outline:
-  // font:
-  // color:
-  // text-align:
-  // text-decoration:
-  // vertical-align:
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  color: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  vertical-align: inherit;
   box-sizing: inherit;
-  // background:
+  background: transparent;
 }
 
-ol, ul {
+ul {
   list-style: none;
 }
 
 img {
-  display: block;  
+  display: block;
   width: 100%;
   height: auto;
 }
@@ -52,6 +52,6 @@ input[type="submit"] {
 
 .group:after {
   content: "";
-  display: table;
+  display: block;
   clear: both;
 }
