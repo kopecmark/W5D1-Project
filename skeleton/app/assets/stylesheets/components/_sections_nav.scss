@@ -1,0 +1,24 @@
+.section {
+	display: flex;
+  justify-content: center;
+
+}
+
+.section-links {
+  display: flex;
+  padding: 10px;
+}
+
+.section-links li {
+
+  padding-left: 15px;
+}
+
+.section-links li a:hover {
+	background-color: $lightest-gray;
+}
+
+.section-links li:last-child a:hover {
+  text-decoration: underline;
+  background: transparent;
+}
